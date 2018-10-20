@@ -1,4 +1,4 @@
---remove data from tables
+--remove data from tables after inserting records
 delete from patient;
 delete from doctor;
 delete from nurse;
@@ -6,7 +6,6 @@ delete from treatment;
 delete from diagnosis;
 
 --insert data into tables to practice standard and complex qyeries.
-
 insert into patient values ('201', 'Kush', 'Patel', '05-24-1993', 'M', '07003');
 insert into patient values ('202', 'Serena', 'Williams', '01-21-1971', 'F', '01001');
 insert into patient values ('203', 'Tom', 'Cruse', '11-18-1978', 'M', '04560');
